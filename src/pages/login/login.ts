@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams, ModalController, Nav } from 'ionic-angular';
-import { iStoreroom } from '../../app/app.component';
+import { HomePage } from '../home/home';
 
 /**
  * Generated class for the LoginPage page.
@@ -23,6 +23,6 @@ export class LoginPage {
 
   login(){
     //TODO Authentication logic
-    this.navCtrl.setRoot(iStoreroom);
+    this.navCtrl.setRoot(HomePage);
   }
 }
